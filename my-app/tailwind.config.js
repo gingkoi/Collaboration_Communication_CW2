@@ -14,7 +14,7 @@ module.exports = {
         poppin: ["Poppins", "sans-serif"],
       },
       colors: {
-        primary: "#5763e5",
+        primary: "#e40e0e",
         text: "#6b7280",
       },
     },

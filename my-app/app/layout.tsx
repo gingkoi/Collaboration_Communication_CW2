@@ -4,8 +4,8 @@ import Banner from "@/components/Header/Banner";
 import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
-  title: "Anytime Fitness",
-  description: "Anytime Fitness website concept",
+  title: "Overtime Fitness Gym",
+  description: "Overtime Fitness Gym website concept for CW2",
 };
 
 export default function RootLayout({

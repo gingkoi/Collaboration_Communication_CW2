@@ -18,7 +18,7 @@ const Footer = () => {
             <Image src={logo} width={170} height={100} alt="anytime-fitness" />
           </Link>
           <p className="text-4xl font-medium text-center lg:text-left mt-5 lg:mt-0">
-            A Lifestyle Gym.
+            A Fitness Gym
           </p>
         </div>
         <div className="bg-white h-[0.1rem] my-14" />
@@ -28,7 +28,7 @@ const Footer = () => {
               <h5 className="font-bold text-xl">About Us</h5>
               <div className="flex flex-col space-y-5 text-sm mt-8">
                 <Link href="/" className="hover:text-primary">
-                  Company History
+                  Our Company
                 </Link>
                 <Link href="/" className="hover:text-primary">
                   Meet the Team
@@ -45,16 +45,16 @@ const Footer = () => {
               <h5 className="font-bold text-xl">Our Services</h5>
               <div className="flex flex-col space-y-5 text-sm mt-8">
                 <Link href="/" className="hover:text-primary">
-                  Web Development
+                  Personal Trainers
                 </Link>
                 <Link href="/" className="hover:text-primary">
-                  Web Design
+                  Corporate Events
                 </Link>
                 <Link href="/" className="hover:text-primary">
-                  Marketing
+                  Franchise
                 </Link>
                 <Link href="/" className="hover:text-primary">
-                  Google Ads
+                  Equipments
                 </Link>
               </div>
             </div>
@@ -62,19 +62,16 @@ const Footer = () => {
               <h5 className="font-bold text-xl">Resources</h5>
               <div className="flex flex-col space-y-5 text-sm mt-8">
                 <Link href="/" className="hover:text-primary">
-                  Online Guide
+                  Upcoming events
                 </Link>
                 <Link href="/" className="hover:text-primary">
-                  Conference Notes
+                  Blog
                 </Link>
                 <Link href="/" className="hover:text-primary">
                   Forum
                 </Link>
                 <Link href="/" className="hover:text-primary">
-                  Downloads
-                </Link>
-                <Link href="/" className="hover:text-primary">
-                  Upcoming Events
+                  Locations
                 </Link>
               </div>
             </div>
@@ -113,7 +110,7 @@ const Footer = () => {
             />
             <Link
               href="/pricing"
-              className="bg-primary text-white py-3 px-8 rounded-full font-medium hover:opacity-90"
+              className="text-center bg-primary text-white py-3 px-8 rounded-full font-medium hover:opacity-90"
             >
               Subscribe
             </Link>
@@ -131,9 +128,6 @@ const Footer = () => {
             </Link>
             <Link href="/">
               <AiOutlineTwitter size={30} className="cursor-pointer" />
-            </Link>
-            <Link href="/">
-              <AiFillGithub size={30} className="cursor-pointer" />
             </Link>
           </div>
         </div>

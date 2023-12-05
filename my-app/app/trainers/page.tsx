@@ -140,7 +140,7 @@ const Trainers = () => {
             onClick={handleToggle3}
           >
             <p className="font-bold text-lg">
-              How can I find a perosnal trainer in Los Angeles & beyond?
+              How can I find a perosnal trainer in Singapore & beyond?
             </p>
             {toggle3 ? (
               <AiOutlineCaretUp className="text-white" size={30} />

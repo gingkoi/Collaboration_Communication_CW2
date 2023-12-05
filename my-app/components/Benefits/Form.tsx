@@ -56,10 +56,10 @@ const Form = () => {
       <div className="max-w-[600px] space-y-4">
         <p className="text-xl">
           For more information or to schedule a complimentary tour, email our
-          Sales team at <b>info@fit.com</b>.
+          Sales team at <b>overtime_gym@fit.com</b>.
         </p>
-        <p className="font-bold text-4xl text-primary">619 475 4450</p>
-        <p>282 Kevin Brook, Imogeneborough, CA 58517</p>
+        <p className="font-bold text-4xl text-primary">+65 8888 7777</p>
+        <p>282 Kevin Brook, Woodlands, Singapore 58517</p>
       </div>
       <div className="p-10 bg-black shadow-xl rounded-md border-2">
         <form

@@ -18,11 +18,11 @@ const Navbar = () => {
 
   return (
     <div className="relative h-full">
-      <div className="bg-black flex justify-between px-5 lg:justify-around py-5 items-center font-poppin gap-4">
+      <div className="bg-black flex justify-between px-5 lg:justify-around py-5 items-center font-poppin gap-4 border-primary border-b-2">
         <Link href="/" className="cursor-pointer">
-          <Image src={logo} width={170} height={100} alt="anytime-fitness" />
+          <Image src={logo} width={120} height={100} alt="anytime-fitness" />
         </Link>
-        <div className="hidden lg:flex space-x-5 text-md ml-[100px] text-white">
+        <div className="hidden lg:flex space-x-16 text-xl ml-[100px] text-white">
           <Link href="/benefits" className="font-semibold hover:text-primary">
             Benefits
           </Link>

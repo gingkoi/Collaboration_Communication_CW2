@@ -36,10 +36,10 @@ const Hero = () => {
             Your health and <br /> Fitness Partner
           </h2>
           <div className="flex flex-col items-center font-poppin">
-            <p className="text-white md:text-3xl text-xl font-bold my-3">
+            {/* <p className="text-white md:text-3xl text-xl font-bold my-3">
               Find your gym
-            </p>
-            <div className="bg-white flex py-3 px-5 rounded-md items-center justify-between focus:bg-primary my-3">
+            </p> */}
+            {/* <div className="bg-white flex py-3 px-5 rounded-md items-center justify-between focus:bg-primary my-3">
               <input
                 type="text"
                 name=""
@@ -50,11 +50,11 @@ const Hero = () => {
               <a href="/">
                 <AiOutlineSearch size={20} />
               </a>
-            </div>
-            <p className="text-white lg:text-left text-center text-sm lg:text-lg">
+            </div> */}
+            {/* <p className="text-white lg:text-left text-center text-sm lg:text-lg">
               Search one of our 90 gyms in Singapore or one of our 5,128 gyms
               worldwide.
-            </p>
+            </p> */}
           </div>
         </div>
         <Image
