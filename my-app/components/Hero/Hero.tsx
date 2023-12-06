@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { AiOutlineSearch } from "react-icons/ai";
 
+// Hero section
 const Hero = () => {
   const pictures = [
     {
