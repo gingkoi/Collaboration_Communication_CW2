@@ -2,6 +2,7 @@
 import React from "react";
 import ShopModal from "../Modal/ShopModal";
 
+// Banner
 const Banner = () => {
   return (
     <div>
