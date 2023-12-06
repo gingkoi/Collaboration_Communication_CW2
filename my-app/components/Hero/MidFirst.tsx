@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
+// MID FIRST
 const MidFirst = () => {
   return (
     <div className="max-w-screen lg:h-[480px] h-[350px] flex justify-center items-center px-5 animated_bg">
