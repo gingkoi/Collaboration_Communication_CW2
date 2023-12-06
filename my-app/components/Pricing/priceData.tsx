@@ -1,3 +1,4 @@
+// Pricing data
 const data = [
   {
     membership: "10 Day Membership",
