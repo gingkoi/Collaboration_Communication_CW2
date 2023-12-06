@@ -7,6 +7,8 @@ import logo from "../../public/LOGO.png";
 import Link from "next/link";
 import GuestMdoal from "../Modal/GuestMdoal";
 
+
+// NAVBAR
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
