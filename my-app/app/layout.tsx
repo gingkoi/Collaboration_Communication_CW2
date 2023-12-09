@@ -2,6 +2,7 @@ import Navbar from "@/components/Header/Navbar";
 import "./globals.css";
 import Banner from "@/components/Header/Banner";
 import Footer from "@/components/Footer/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Overtime Fitness Gym",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
