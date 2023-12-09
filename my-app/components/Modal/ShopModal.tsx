@@ -103,7 +103,7 @@ const Modal = () => {
                     )}
                     <div className="flex justify-center">
                       <Link
-                        href="/pricing/checkout"
+                        href="https://buy.stripe.com/test_7sI6oJ2nE6jPgk8144"
                         className="bg-black text-white font-bold py-3 px-10 rounded-lg hover:bg-primary text-lg transition ease-in-out hover:scale-105"
                         onClick={closeModal}
                       >
