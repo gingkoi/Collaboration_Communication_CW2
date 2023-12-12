@@ -24,6 +24,7 @@ const PricingCard = ({ data }: { data: any }) => {
       <div className="flex justify-center">
         <Link
           href="https://buy.stripe.com/test_7sI6oJ2nE6jPgk8144"
+          target="_blank"
           className="bg-black text-white font-bold py-3 px-10 rounded-lg hover:bg-primary text-lg transition ease-in-out hover:scale-105"
         >
           Get Started
